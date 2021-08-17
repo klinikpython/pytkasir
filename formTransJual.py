@@ -117,7 +117,7 @@ class FormTransJual(Toplevel):
         self.entryJmlPro = Entry(fr_kdPro, width=7)
         self.entryJmlPro.pack(side=LEFT)
         self.buttonInput = Button(fr_kdPro, text='Input Data', 
-            command=self.cariKdPro, width=7)
+            command=self.onInputEnter, width=7)
         self.buttonInput.pack(side=LEFT, padx=5)
         
         # sub total
